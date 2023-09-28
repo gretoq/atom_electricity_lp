@@ -1,0 +1,13 @@
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  width: 100vw;
+  font-family: var(--font-verdana);
+  font-style: normal;
+  font-weight: 400;
+  overflow-x: hidden;
+}

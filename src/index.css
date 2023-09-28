@@ -1,0 +1,37 @@
+@import url('./styles/globals.css');
+
+/* Header styles */
+@import url('./styles/blocks/header/header.css');
+
+/* Main styles */
+@import url('./styles/blocks/main/main.css');
+
+/* CTA section */
+@import url('./styles/blocks/main/cta/cta.css');
+
+/* Thanks section */
+@import url('./styles/blocks/main/cta/thanks.css');
+
+/* Form styles */
+@import url('./styles/blocks/main/form/form.css');
+
+/* About project styles */
+@import url('./styles/blocks/main/about/about-project.css');
+
+/* About company styles */
+@import url('./styles/blocks/main/about/about-company.css');
+
+/* Testimonials section */
+@import url('./styles/blocks/main/testimonials/testimonials.css');
+
+/* Investment section */
+@import url('./styles/blocks/main/investment/investment.css');
+
+/* Why section styles */
+@import url('./styles/blocks/main/why/why.css');
+
+/* Contact us section styles */
+@import url('./styles/blocks/main/contact-us/contact-us.css');
+
+/* Footer styles */
+@import url('./styles/blocks/footer/footer.css');

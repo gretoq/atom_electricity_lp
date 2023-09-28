@@ -1,0 +1,35 @@
+html,
+body,
+ul,
+ol,
+li,
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  margin: 0;
+  padding: 0;
+  line-height: normal;
+}
+
+a {
+  font-size: 0;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  background: none repeat scroll 0 0 transparent;
+  border: medium none;
+  border-spacing: 0;
+  list-style: none outside none;
+  text-decoration: none;
+  text-indent: 0;
+  cursor: pointer;
+}

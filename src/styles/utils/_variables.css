@@ -1,0 +1,48 @@
+:root {
+  /* fonts */
+  --font-verdana: 'Verdana';
+
+  /* font sizes */
+  --font-size-5xl: 24px;
+  --font-size-17xl: 36px;
+  --font-size-14xl: 30px;
+  --font-size-12xl: 28px;
+  --font-size-29xl: 48px;
+  --font-size-xl: 20px;
+  --font-size-2xl: 21px;
+  --font-size-3xl: 22px;
+  --font-size-4l: 18px;
+  --font-size-3l: 16px;
+  --font-size-2l: 14px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-black: #000;
+  --color-blue: #0048b1;
+  --color-blue-light: #00adfe;
+  --color-green: #1aaf4c;
+  --color-btn-main: #fa0606;
+  --color-text-main: #181818;
+  --color-hover: #ff7f7f;
+  --color-gainsboro: #d9d9d9;
+  --color-gray-100: #878787;
+  --color-gradient-from: #1bb147;
+  --color-gradient-to: #018ed5;
+  --gradient: linear-gradient(
+    90deg,
+    var(--color-gradient-from) 10.22%,
+    var(--color-gradient-to) 104.68%
+  );
+  --moon-eclipse: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.4) 0%,
+      rgba(0, 0, 0, 0.4) 100%
+    ),
+    linear-gradient(
+      90deg,
+      #000 -5.44%,
+      rgba(0, 0, 0, 0.5) 40.08%,
+      rgba(0, 0, 0, 0.3) 53.95%,
+      rgba(0, 0, 0, 0) 65.34%
+    );
+}

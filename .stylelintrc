@@ -1,0 +1,12 @@
+{
+  "extends": "stylelint-config-standard",
+  "rules": {
+    "media-feature-range-notation": null,
+    "color-function-notation": null,
+    "alpha-value-notation": null,
+    "no-descending-specificity": null,
+    "property-no-vendor-prefix": null,
+    "selector-pseudo-element-colon-notation": null,
+    "custom-property-pattern": null
+  }
+}

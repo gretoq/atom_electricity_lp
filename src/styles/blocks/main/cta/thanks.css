@@ -1,0 +1,48 @@
+.thanks {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-shrink: 1;
+  gap: 12px;
+  max-width: 695px;
+  width: 100%;
+
+  > .title {
+    margin-bottom: 7px;
+    color: var(--color-black);
+    text-align: center;
+    font-size: var(--font-size-17xl);
+    font-weight: 700;
+    line-height: 130%;
+  }
+
+  > .logos-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 568px;
+    width: 100%;
+
+    @media (max-width: 990px) {
+      flex-direction: column;
+      align-items: center;
+      gap: 12px;
+    }
+
+    > .ministerstwo {
+      aspect-ratio: 376/127;
+      max-width: 376px;
+    }
+
+    > .sejm {
+      aspect-ratio: 132/99;
+      max-width: 132px;
+    }
+  }
+
+  > .bg {
+    max-width: 695px;
+    width: 100%;
+    aspect-ratio: 695/397;
+    background: var(--color-gainsboro);
+  }
+}

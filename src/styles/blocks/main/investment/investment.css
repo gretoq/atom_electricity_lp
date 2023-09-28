@@ -1,0 +1,126 @@
+.investment {
+  min-width: 100vw;
+  width: 100%;
+  margin-left: -25px;
+  background-color: var(--color-blue);
+
+  > .profit {
+    padding: 60px 0 54px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    max-width: 1060px;
+    margin: 0 auto;
+
+    @media (max-width: 1110px) {
+      padding-left: 50px;
+      padding-right: 25px;
+    }
+
+    > .title {
+      margin-bottom: 26px;
+      font-size: var(--font-size-29xl);
+      font-weight: 700;
+      line-height: 130%;
+      color: var(--color-white);
+
+      @media (max-width: 768px) {
+        font-size: var(--font-size-17xl);
+      }
+    }
+
+    > .description {
+      margin-bottom: 68px;
+      color: var(--color-white);
+      font-size: var(--font-size-3l);
+      line-height: 130%;
+      letter-spacing: 0.72px;
+    }
+
+    > .amount-container {
+      display: flex;
+      flex-direction: column;
+
+      > .irs {
+        width: 100%;
+        margin-bottom: 58px;
+
+        > .irs {
+          > .irs-min,
+          > .irs-max {
+            /* Important here is necessary, 
+            because we must rewrite inline style */
+            visibility: visible !important;
+            top: 64px;
+            color: var(--color-white);
+            font-size: var(--font-size-3l);
+            background-color: transparent;
+          }
+
+          > .irs-min::after,
+          > .irs-max::after {
+            position: absolute;
+            display: block;
+            content: 'PLN';
+            bottom: 3px;
+            left: 100%;
+          }
+
+          > .irs-max {
+            right: 30px;
+          }
+
+          > .irs-single {
+            background-color: var(--color-white);
+            color: var(--color-black);
+            padding: 10px;
+            top: -14px;
+          }
+
+          > .irs-single::before {
+            content: none !important;
+          }
+        }
+
+        > .irs-handle {
+          border: none;
+          cursor: pointer;
+        }
+      }
+
+      > .title {
+        margin-bottom: 20px;
+        text-align: start;
+        font-size: var(--font-size-2l);
+        line-height: 130%;
+        color: var(--color-white);
+      }
+
+      > .description {
+        margin-bottom: 48px;
+        align-self: start;
+        text-align: start;
+        font-size: var(--font-size-3xl);
+        line-height: 130%;
+        color: var(--color-white);
+      }
+    }
+
+    > .btn {
+      align-self: center;
+      background-color: var(--color-white);
+      border-radius: 3px;
+      width: 444px;
+      height: 78px;
+      font-size: var(--font-size-xl);
+      line-height: 130%;
+      color: var(--color-blue);
+      transition: background-color 0.3s ease-in;
+
+      &:hover {
+        background-color: var(--color-hover);
+      }
+    }
+  }
+}
