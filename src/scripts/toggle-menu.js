@@ -1,7 +1,7 @@
 'use strict';
 
 const menuBtn = document.querySelector('.btn-menu');
-const navContainer = document.querySelector('.navigation-container');
+const navContainer = document.querySelector('.navigation');
 
 let menuState = false;
 

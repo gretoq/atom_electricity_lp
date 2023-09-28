@@ -13,6 +13,7 @@ p {
   margin: 0;
   padding: 0;
   line-height: normal;
+  font-weight: inherit;
 }
 
 a {
